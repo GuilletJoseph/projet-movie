@@ -1,5 +1,8 @@
 package com.diginamic.entities;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,32 +10,27 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Transient;
+
+import org.hibernate.annotations.GenericGenerator;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
-@Table(name = "lieu_tournage")
+@Table(name = "LIEU_TOURNAGE")
 public class LieuTournage {
 
 	@Id
+	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id_1")
-	private Long id_1;
+	@JsonIgnore()
+	private Long id;
 	
 	
-	
-	public Long getId_1() {
-		return id_1;
-	}
-
-	public void setId_1(Long id_1) {
-		this.id_1 = id_1;
-	}
-	
-	
-	
-	@Column(name="id")
-	private String id;
 	
 	
 	@Column(name="ville")
@@ -45,15 +43,15 @@ public class LieuTournage {
 
 	@Column(name="pays")
 	private String pays;
-	
-	@OneToOne(mappedBy = "lieuTournage",cascade = {CascadeType.ALL})
-    private Film film = new Film();
 
-	public String getId() {
+	@ManyToMany(mappedBy = "lstLieuTurnage")
+	private Set<Film> lstLieuTurnage = new HashSet<>();
+
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -81,12 +79,13 @@ public class LieuTournage {
 		this.pays = pays;
 	}
 
-	public Film getFilm() {
-		return film;
+
+	public Set<Film> getLstLieuTurnage() {
+		return lstLieuTurnage;
 	}
 
-	public void setFilm(Film film) {
-		this.film = film;
+	public void setLstLieuTurnage(Set<Film> lstLieuTurnage) {
+		this.lstLieuTurnage = lstLieuTurnage;
 	}
 
 }

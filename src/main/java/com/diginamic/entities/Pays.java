@@ -6,6 +6,7 @@ import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -17,48 +18,37 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 @Entity
-@Table(name="pays")
+@Table(name="PAYS")
 public class Pays {
 
 	@Id
+	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id_1")
-	private Long id_1;
-	
-	
-	
-	public Long getId_1() {
-		return id_1;
-	}
-
-	public void setId_1(Long id_1) {
-		this.id_1 = id_1;
-	}
-	
-	
-	
-	
-	@Column(name="id")
-	private String id;
+	private Long id;
 	
 	@Column(name="nom")
 	private String nom;
 	
 	@Column(name="url")
 	private String url;
-
 	
-	@OneToOne(mappedBy = "pays",cascade = {CascadeType.ALL})
-    private Film film = new Film();
+	
+	@OneToMany(mappedBy = "pays", cascade = {CascadeType.ALL})
+	private Set<Film> films = new HashSet<>();
 
 
-	public String getId() {
+	public Long getId() {
 		return id;
 	}
 
 
-	public void setId(String id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -83,14 +73,17 @@ public class Pays {
 	}
 
 
-	public Film getFilm() {
-		return film;
+	public Set<Film> getFilms() {
+		return films;
 	}
 
 
-	public void setFilm(Film film) {
-		this.film = film;
+	public void setFilms(Set<Film> films) {
+		this.films = films;
 	}
+
+
+
 	
 
 	

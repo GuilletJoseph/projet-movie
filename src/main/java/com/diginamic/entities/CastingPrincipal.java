@@ -10,113 +10,42 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
+import org.hibernate.annotations.GenericGenerator;
 
-	@Entity
-	@Table(name="casting_principal")
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 	public class CastingPrincipal {
 
-		@Id
-		@GeneratedValue(strategy = GenerationType.IDENTITY)
-		@Column(name="id_1")
-		private Long id_1;
+		@JsonIgnore()
+		private Long id;
+		
+		@JsonIgnore
+	    private String idimdb;
 		
 		
-		
-		
-		
-		public Long getId_1() {
-			return id_1;
-		}
-
-		public void setId_1(Long id_1) {
-			this.id_1 = id_1;
-		}
-
-		@Column(name="id")
-		private String id;
-		
-		
-		@Column(name="identite")
+		@JsonIgnore
 		private String identite;
 		
-		@OneToOne(cascade = {CascadeType.ALL})
-	    @JoinColumn(name = "naissance_id", referencedColumnName = "id")
+		@JsonIgnore
 		private Naissance naissance;
 		
-		@Column(name="url")
+		@JsonIgnore
 		private String url;
 		
-		@Column(name="height")
+		@JsonIgnore
 		private String height;	
 
-		@OneToMany(mappedBy = "acteur",cascade = {CascadeType.ALL})
-		private Set<Role> roles = new HashSet<>();
-		
-		@ManyToOne(cascade = {CascadeType.ALL})
-		@JoinColumn(name="film_id")
-		private Film film;
+		@JsonIgnore
+		private Set<Role> roles=new HashSet<>();
 
-		public Film getFilm() {
-			return film;
-		}
-
-		public void setFilm(Film film) {
-			this.film = film;
-		}
-
-		public String getId() {
-			return id;
-		}
-
-		public void setId(String id) {
-			this.id = id;
-		}
-
-		public String getIdentite() {
-			return identite;
-		}
-
-		public void setIdentite(String identite) {
-			this.identite = identite;
-		}
-
-		public Naissance getNaissance() {
-			return naissance;
-		}
-
-		public void setNaissance(Naissance naissance) {
-			this.naissance = naissance;
-		}
-
-		public String getUrl() {
-			return url;
-		}
-
-		public void setUrl(String url) {
-			this.url = url;
-		}
-
-		public String getHeight() {
-			return height;
-		}
-
-		public void setHeight(String height) {
-			this.height = height;
-		}
-
-		public Set<Role> getRoles() {
-			return roles;
-		}
-
-		public void setRoles(Set<Role> roles) {
-			this.roles = roles;
-		}
-		
 		
 		
 		

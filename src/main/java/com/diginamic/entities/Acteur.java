@@ -11,37 +11,63 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 @Entity
-@Table(name = "acteur")
+@Table(name = "ACTEUR")
 public class Acteur {
 
 	@Id
+	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id_1")
-	private Long id_1;
+	@JsonIgnore()
+	private Long id;
+	
+	
+	@Column(name="id_imdb")
+	@JsonProperty("id")
+    private String idImdb;
 	
 	
 	
-	public Long getId_1() {
-		return id_1;
+	public Long getId() {
+		return id;
 	}
 
-	public void setId_1(Long id_1) {
-		this.id_1 = id_1;
+
+	public void setId(Long id) {
+		this.id = id;
 	}
 
-	@Column(name="id")
-	private String id;	
+
 	
+
+	public String getIdImdb() {
+		return idImdb;
+	}
+
+
+	public void setIdImdb(String idImdb) {
+		this.idImdb = idImdb;
+	}
+
+
+
+
 	@Column(name="identite")
 	private String identite;
 	
 	@OneToOne(cascade = {CascadeType.ALL})
-    @JoinColumn(name = "naissance_id", referencedColumnName = "id")
+    @JoinColumn(name = "naissance_id", referencedColumnName = "id" )
 	private Naissance naissance;
 	
 	@Column(name="url")
@@ -50,25 +76,35 @@ public class Acteur {
 	@Column(name="height")
 	private String height;	
 
-	@OneToMany(mappedBy = "acteur", cascade = {CascadeType.ALL})
+	
+	@OneToMany(mappedBy="acteur", cascade = {CascadeType.ALL})	
 	private Set<Role> roles = new HashSet<>();
 	
+	//@OneToMany(mappedBy="acteur2", cascade = {CascadeType.ALL})	
+	//private Set<CastingPrincipal> lstCastinPrincipal = new HashSet<>();
 	
 	
 	
+	@ManyToMany(mappedBy = "castingPrincipal")
+	private Set<Film> films = new HashSet<>();
 	
+	
+	
+
+	public Set<Film> getFilms() {
+		return films;
+	}
+
+
+	public void setFilms(Set<Film> films) {
+		this.films = films;
+	}
+
 
 	public Acteur() {
 		
 	}
 
-	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
-	}
 
 	public String getIdentite() {
 		return identite;

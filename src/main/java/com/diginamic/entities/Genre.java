@@ -1,5 +1,8 @@
 package com.diginamic.entities;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,6 +10,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
@@ -19,22 +23,52 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @Entity
-@Table(name = "NAISSANCE")
-public class Naissance {
+@Table(name = "GENRE")
+public class Genre {
 
 	@Id
 	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@JsonIgnore()
 	private Long id;
+
+	@Column(name="nom")
+	private String nom;
 	
-	@Column(name="datenaissance")
-	private String dateNaissance;
+	@ManyToMany(mappedBy = "lstGenres")
+	private Set<Film> lstFilms = new HashSet<>();
+
+
+	public Genre(String nom) {
+		super();
+		this.nom = nom;
+	}
+
 	
-	
-	@Column(name="lieunaissance")
-	private String lieuNaissance;
-	
+
+	public String getNom() {
+		return nom;
+	}
+
+
+
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+
+
+	public Set<Film> getLstFilms() {
+		return lstFilms;
+	}
+
+
+
+	public void setLstFilms(Set<Film> lstFilms) {
+		this.lstFilms = lstFilms;
+	}
+
 
 
 	public Long getId() {
@@ -42,29 +76,9 @@ public class Naissance {
 	}
 
 
+
 	public void setId(Long id) {
 		this.id = id;
 	}
-
-
-	public String getDateNaissance() {
-		return dateNaissance;
-	}
-
-
-	public void setDateNaissance(String dateNaissance) {
-		this.dateNaissance = dateNaissance;
-	}
-
-
-	public String getLieuNaissance() {
-		return lieuNaissance;
-	}
-
-
-	public void setLieuNaissance(String lieuNaissance) {
-		this.lieuNaissance = lieuNaissance;
-	}
-
 
 }

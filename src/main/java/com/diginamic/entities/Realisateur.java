@@ -16,30 +16,20 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 @Entity
-@Table(name="realisateur")
-public class Realisateurs {
+@Table(name="REALISATEUR")
+public class Realisateur {
 
 	@Id
+	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id_1")
-	private Long id_1;
-	
-	
-	
-	public Long getId_1() {
-		return id_1;
-	}
-
-	public void setId_1(Long id_1) {
-		this.id_1 = id_1;
-	}
-	
-	
-	
-	
-	@Column(name="id")
-	private String id;
+	@JsonIgnore()
+	private Long id;
 
 	@Column(name="identite")
 	private String identite;
@@ -48,17 +38,16 @@ public class Realisateurs {
 	private String url;
 	
 	
-	@ManyToOne(cascade = {CascadeType.ALL})
-    @JoinColumn(name="film_id")
-    private Film film;
+	@ManyToMany(mappedBy = "realisateurs")//, cascade = {CascadeType.ALL})
+	private Set<Film> films = new HashSet<>();
 
 
-	public String getId() {
+	public Long getId() {
 		return id;
 	}
 
 
-	public void setId(String id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -83,16 +72,14 @@ public class Realisateurs {
 	}
 
 
-	public Film getFilm() {
-		return film;
+	public Set<Film> getFilms() {
+		return films;
 	}
 
 
-	public void setFilm(Film film) {
-		this.film = film;
+	public void setFilms(Set<Film> films) {
+		this.films = films;
 	}
-
-
 	
 	
 	

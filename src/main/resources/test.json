@@ -64,5 +64,1725 @@
     },
     "film" : "tt1801045"
   } ],
-  "genres" : "Action"
+  "genres" : [ "Action", "Adventure", "Comedy" ]
+}, {
+  "id" : "tt7766378",
+  "pays" : {
+    "nom" : "United States",
+    "url" : "/search/title/?country_of_origin=US&ref_=tt_dt_cn"
+  },
+  "nom" : "The Electric State",
+  "url" : "/title/tt7766378/?ref_=nm_flmg_act_2",
+  "plot" : "An orphaned teenager traverses the American West with a sweet but mysterious robot and an eccentric drifter in search of her younger brother.",
+  "langue" : "English",
+  "lieuTournage" : {
+    "ville" : "Atlanta",
+    "etatDept" : " Georgia",
+    "pays" : " USA"
+  },
+  "realisateurs" : [ {
+    "identite" : "Anthony Russo",
+    "url" : "/name/nm0751577/?ref_=tt_ov_dr"
+  }, {
+    "identite" : "Joe Russo",
+    "url" : "/name/nm0751648/?ref_=tt_ov_dr"
+  } ],
+  "castingPrincipal" : [ {
+    "id" : "nm5611121",
+    "identite" : "Millie Bobby Brown",
+    "naissance" : {
+      "dateNaissance" : "2004-2-19",
+      "lieuNaissance" : "MÃ¡laga, AndalucÃ­a, Spain"
+    },
+    "url" : "/name/nm5611121/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm0695435",
+    "identite" : "Chris Pratt",
+    "naissance" : {
+      "dateNaissance" : "1979-6-21",
+      "lieuNaissance" : "Virginia, Minnesota, USA"
+    },
+    "url" : "/name/nm0695435/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  } ],
+  "anneeSortie" : "",
+  "roles" : [ {
+    "characterName" : "",
+    "acteur" : {
+      "id" : "nm5611121",
+      "identite" : "Millie Bobby Brown",
+      "naissance" : {
+        "dateNaissance" : "2004-2-19",
+        "lieuNaissance" : "MÃ¡laga, AndalucÃ­a, Spain"
+      },
+      "url" : "/name/nm5611121?ref_=tt_cl_t_1",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt7766378"
+  }, {
+    "characterName" : "",
+    "acteur" : {
+      "id" : "nm0695435",
+      "identite" : "Chris Pratt",
+      "naissance" : {
+        "dateNaissance" : "1979-6-21",
+        "lieuNaissance" : "Virginia, Minnesota, USA"
+      },
+      "url" : "/name/nm0695435?ref_=tt_cl_t_2",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt7766378"
+  } ],
+  "genres" : [ "Action", "Adventure", "Drama" ]
+}, {
+  "id" : "tt5779228",
+  "pays" : {
+    "nom" : "United States",
+    "url" : "/search/title/?country_of_origin=US&ref_=tt_dt_cn"
+  },
+  "nom" : "Garfield",
+  "url" : "/title/tt5779228/?ref_=nm_flmg_act_3",
+  "plot" : "Animated feature film based on the popular comic strip about a sarcastic, lasagna-loving cat.",
+  "langue" : "English",
+  "lieuTournage" : null,
+  "realisateurs" : [ {
+    "identite" : "Mark Dindal",
+    "url" : "/name/nm0227540/?ref_=tt_ov_dr"
+  } ],
+  "castingPrincipal" : [ {
+    "id" : "nm0000168",
+    "identite" : "Samuel L. Jackson",
+    "naissance" : {
+      "dateNaissance" : "1948-12-21",
+      "lieuNaissance" : "Washington D.C., USA"
+    },
+    "url" : "/name/nm0000168/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm0695435",
+    "identite" : "Chris Pratt",
+    "naissance" : {
+      "dateNaissance" : "1979-6-21",
+      "lieuNaissance" : "Virginia, Minnesota, USA"
+    },
+    "url" : "/name/nm0695435/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  } ],
+  "anneeSortie" : "2023",
+  "roles" : [ {
+    "characterName" : "Vic",
+    "acteur" : {
+      "id" : "nm0000168",
+      "identite" : "Samuel L. Jackson",
+      "naissance" : {
+        "dateNaissance" : "1948-12-21",
+        "lieuNaissance" : "Washington D.C., USA"
+      },
+      "url" : "/name/nm0000168?ref_=tt_cl_t_2",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt5779228"
+  }, {
+    "characterName" : "Garfield",
+    "acteur" : {
+      "id" : "nm0695435",
+      "identite" : "Chris Pratt",
+      "naissance" : {
+        "dateNaissance" : "1979-6-21",
+        "lieuNaissance" : "Virginia, Minnesota, USA"
+      },
+      "url" : "/name/nm0695435?ref_=tt_cl_t_1",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt5779228"
+  } ],
+  "genres" : [ "Animation", "Adventure", "Comedy" ]
+}, {
+  "id" : "tt6791350",
+  "pays" : {
+    "nom" : "United States",
+    "url" : "/search/title/?country_of_origin=US&ref_=tt_dt_cn"
+  },
+  "nom" : "Guardians of the Galaxy Vol. 3",
+  "url" : "/title/tt6791350/?ref_=nm_flmg_act_4",
+  "plot" : null,
+  "langue" : "English",
+  "lieuTournage" : {
+    "ville" : "Atlanta",
+    "etatDept" : " Georgia",
+    "pays" : " USA"
+  },
+  "realisateurs" : [ {
+    "identite" : "James Gunn",
+    "url" : "/name/nm0348181/?ref_=tt_ov_dr"
+  } ],
+  "castingPrincipal" : [ {
+    "id" : "nm0695435",
+    "identite" : "Chris Pratt",
+    "naissance" : {
+      "dateNaissance" : "1979-6-21",
+      "lieuNaissance" : "Virginia, Minnesota, USA"
+    },
+    "url" : "/name/nm0695435/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm1176985",
+    "identite" : "Dave Bautista",
+    "naissance" : {
+      "dateNaissance" : "1969-1-18",
+      "lieuNaissance" : "Washington, District of Columbia, USA"
+    },
+    "url" : "/name/nm1176985/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm0757855",
+    "identite" : "Zoe Saldana",
+    "naissance" : {
+      "dateNaissance" : "1978-6-19",
+      "lieuNaissance" : "Passaic, New Jersey, USA"
+    },
+    "url" : "/name/nm0757855/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  } ],
+  "anneeSortie" : "2023",
+  "roles" : [ {
+    "characterName" : "Behemoth",
+    "acteur" : {
+      "id" : "nm8883627",
+      "identite" : "Reinaldo Faberlle",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm8883627?ref_=tt_cl_t_17",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "",
+    "acteur" : {
+      "id" : "nm4456672",
+      "identite" : "Nico Santos",
+      "naissance" : {
+        "dateNaissance" : "1979-4-7",
+        "lieuNaissance" : "Manila, Philippines"
+      },
+      "url" : "/name/nm4456672?ref_=tt_cl_t_15",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Star Kid",
+    "acteur" : {
+      "id" : "nm13086668",
+      "identite" : "Olive Raine Cleope",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm13086668?ref_=tt_cl_t_18",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Gamora",
+    "acteur" : {
+      "id" : "nm0757855",
+      "identite" : "Zoe Saldana",
+      "naissance" : {
+        "dateNaissance" : "1978-6-19",
+        "lieuNaissance" : "Passaic, New Jersey, USA"
+      },
+      "url" : "/name/nm0757855?ref_=tt_cl_t_2",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Ayesha",
+    "acteur" : {
+      "id" : "nm4456120",
+      "identite" : "Elizabeth Debicki",
+      "naissance" : {
+        "dateNaissance" : "1990-8-24",
+        "lieuNaissance" : "Paris, France"
+      },
+      "url" : "/name/nm4456120?ref_=tt_cl_t_10",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Rocket",
+    "acteur" : {
+      "id" : "nm0177896",
+      "identite" : "Bradley Cooper",
+      "naissance" : {
+        "dateNaissance" : "1975-1-5",
+        "lieuNaissance" : "Philadelphia, Pennsylvania, USA"
+      },
+      "url" : "/name/nm0177896?ref_=tt_cl_t_5",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "",
+    "acteur" : {
+      "id" : "nm6403016",
+      "identite" : "Daniela Melchior",
+      "naissance" : {
+        "dateNaissance" : "1996-11-1",
+        "lieuNaissance" : "Almada, Portugal"
+      },
+      "url" : "/name/nm6403016?ref_=tt_cl_t_12",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Adam Warlock",
+    "acteur" : {
+      "id" : "nm2401020",
+      "identite" : "Will Poulter",
+      "naissance" : {
+        "dateNaissance" : "1993-1-28",
+        "lieuNaissance" : "England, UK"
+      },
+      "url" : "/name/nm2401020?ref_=tt_cl_t_6",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "",
+    "acteur" : {
+      "id" : "nm1030244",
+      "identite" : "Chukwudi Iwuji",
+      "naissance" : {
+        "dateNaissance" : "1975-0-0",
+        "lieuNaissance" : "Nigeria"
+      },
+      "url" : "/name/nm1030244?ref_=tt_cl_t_13",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Kraglin",
+    "acteur" : {
+      "id" : "nm0348231",
+      "identite" : "Sean Gunn",
+      "naissance" : {
+        "dateNaissance" : "1974-5-22",
+        "lieuNaissance" : "St. Louis, Missouri, USA"
+      },
+      "url" : "/name/nm0348231?ref_=tt_cl_t_11",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Stakar Ogord",
+    "acteur" : {
+      "id" : "nm0000230",
+      "identite" : "Sylvester Stallone",
+      "naissance" : {
+        "dateNaissance" : "1946-7-6",
+        "lieuNaissance" : "New York City, New York, USA"
+      },
+      "url" : "/name/nm0000230?ref_=tt_cl_t_9",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Groot",
+    "acteur" : {
+      "id" : "nm0004874",
+      "identite" : "Vin Diesel",
+      "naissance" : {
+        "dateNaissance" : "1967-7-18",
+        "lieuNaissance" : "Alameda County, California, USA"
+      },
+      "url" : "/name/nm0004874?ref_=tt_cl_t_4",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Nebula",
+    "acteur" : {
+      "id" : "nm2394794",
+      "identite" : "Karen Gillan",
+      "naissance" : {
+        "dateNaissance" : "1987-11-28",
+        "lieuNaissance" : "Inverness, Scotland, UK"
+      },
+      "url" : "/name/nm2394794?ref_=tt_cl_t_7",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Peter Quill",
+    "acteur" : {
+      "id" : "nm0695435",
+      "identite" : "Chris Pratt",
+      "naissance" : {
+        "dateNaissance" : "1979-6-21",
+        "lieuNaissance" : "Virginia, Minnesota, USA"
+      },
+      "url" : "/name/nm0695435?ref_=tt_cl_t_1",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Drax",
+    "acteur" : {
+      "id" : "nm1176985",
+      "identite" : "Dave Bautista",
+      "naissance" : {
+        "dateNaissance" : "1969-1-18",
+        "lieuNaissance" : "Washington, District of Columbia, USA"
+      },
+      "url" : "/name/nm1176985?ref_=tt_cl_t_3",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "",
+    "acteur" : {
+      "id" : "nm7210025",
+      "identite" : "Maria Bakalova",
+      "naissance" : {
+        "dateNaissance" : "1996-6-4",
+        "lieuNaissance" : "Burgas, Bulgaria"
+      },
+      "url" : "/name/nm7210025?ref_=tt_cl_t_14",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "",
+    "acteur" : {
+      "id" : "nm0002888",
+      "identite" : "Stephen Blackehart",
+      "naissance" : {
+        "dateNaissance" : "1967-12-1",
+        "lieuNaissance" : "New York City, New York, USA"
+      },
+      "url" : "/name/nm0002888?ref_=tt_cl_t_16",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  }, {
+    "characterName" : "Mantis",
+    "acteur" : {
+      "id" : "nm2962353",
+      "identite" : "Pom Klementieff",
+      "naissance" : {
+        "dateNaissance" : "1986-5-3",
+        "lieuNaissance" : "Quebec City, Quebec, Canada"
+      },
+      "url" : "/name/nm2962353?ref_=tt_cl_t_8",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6791350"
+  } ],
+  "genres" : [ "Action", "Adventure", "Comedy" ]
+}, {
+  "id" : "tt6718170",
+  "pays" : {
+    "nom" : "United States",
+    "url" : "/search/title/?country_of_origin=US&ref_=tt_dt_cn"
+  },
+  "nom" : "Untitled Super Mario Project",
+  "url" : "/title/tt6718170/?ref_=nm_flmg_act_5",
+  "plot" : "A plumber named Mario travels through an underground labyrinth with his brother, Luigi, trying to save a captured princess. Feature film adaptation of the popular video game.",
+  "langue" : "English",
+  "lieuTournage" : {
+    "ville" : "",
+    "etatDept" : "Paris",
+    "pays" : " France"
+  },
+  "realisateurs" : [ {
+    "identite" : "Aaron Horvath",
+    "url" : "/name/nm1739338/?ref_=tt_ov_dr"
+  }, {
+    "identite" : "Michael Jelenic",
+    "url" : "/name/nm2398585/?ref_=tt_ov_dr"
+  } ],
+  "castingPrincipal" : [ ],
+  "anneeSortie" : "2023",
+  "roles" : [ {
+    "characterName" : "Spike",
+    "acteur" : {
+      "id" : "nm1724319",
+      "identite" : "Sebastian Maniscalco",
+      "naissance" : {
+        "dateNaissance" : "1973-7-8",
+        "lieuNaissance" : "Chicago, Illinois, USA"
+      },
+      "url" : "/name/nm1724319?ref_=tt_cl_t_9",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6718170"
+  }, {
+    "characterName" : "Princess Peach",
+    "acteur" : {
+      "id" : "nm5896355",
+      "identite" : "Anya Taylor-Joy",
+      "naissance" : {
+        "dateNaissance" : "1996-4-16",
+        "lieuNaissance" : "Miami, Florida, USA"
+      },
+      "url" : "/name/nm5896355?ref_=tt_cl_t_2",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6718170"
+  }, {
+    "characterName" : "",
+    "acteur" : {
+      "id" : "nm0553409",
+      "identite" : "Charles Martinet",
+      "naissance" : {
+        "dateNaissance" : "1955-9-17",
+        "lieuNaissance" : "San Jose, California, USA"
+      },
+      "url" : "/name/nm0553409?ref_=tt_cl_t_10",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6718170"
+  }, {
+    "characterName" : "Toad",
+    "acteur" : {
+      "id" : "nm1221047",
+      "identite" : "Keegan-Michael Key",
+      "naissance" : {
+        "dateNaissance" : "1971-3-22",
+        "lieuNaissance" : "Southfield, Michigan, USA"
+      },
+      "url" : "/name/nm1221047?ref_=tt_cl_t_5",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6718170"
+  }, {
+    "characterName" : "Bowser",
+    "acteur" : {
+      "id" : "nm0085312",
+      "identite" : "Jack Black",
+      "naissance" : {
+        "dateNaissance" : "1969-8-28",
+        "lieuNaissance" : "Hermosa Beach, California, USA"
+      },
+      "url" : "/name/nm0085312?ref_=tt_cl_t_4",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6718170"
+  }, {
+    "characterName" : "Donkey Kong",
+    "acteur" : {
+      "id" : "nm0736622",
+      "identite" : "Seth Rogen",
+      "naissance" : {
+        "dateNaissance" : "1982-4-15",
+        "lieuNaissance" : "Vancouver, British Columbia, Canada"
+      },
+      "url" : "/name/nm0736622?ref_=tt_cl_t_6",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6718170"
+  }, {
+    "characterName" : "Kamek",
+    "acteur" : {
+      "id" : "nm0724656",
+      "identite" : "Kevin Michael Richardson",
+      "naissance" : {
+        "dateNaissance" : "1964-10-25",
+        "lieuNaissance" : "Bronx, New York City, New York, USA"
+      },
+      "url" : "/name/nm0724656?ref_=tt_cl_t_8",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6718170"
+  }, {
+    "characterName" : "Mario",
+    "acteur" : {
+      "id" : "nm0695435",
+      "identite" : "Chris Pratt",
+      "naissance" : {
+        "dateNaissance" : "1979-6-21",
+        "lieuNaissance" : "Virginia, Minnesota, USA"
+      },
+      "url" : "/name/nm0695435?ref_=tt_cl_t_1",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6718170"
+  }, {
+    "characterName" : "Luigi",
+    "acteur" : {
+      "id" : "nm0206359",
+      "identite" : "Charlie Day",
+      "naissance" : {
+        "dateNaissance" : "1976-2-9",
+        "lieuNaissance" : "New York City, New York, USA"
+      },
+      "url" : "/name/nm0206359?ref_=tt_cl_t_3",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6718170"
+  }, {
+    "characterName" : "Cranky Kong",
+    "acteur" : {
+      "id" : "nm0035488",
+      "identite" : "Fred Armisen",
+      "naissance" : {
+        "dateNaissance" : "1966-12-4",
+        "lieuNaissance" : "Hattiesburg, Mississippi, USA"
+      },
+      "url" : "/name/nm0035488?ref_=tt_cl_t_7",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt6718170"
+  } ],
+  "genres" : [ "Animation", "Adventure", "Comedy" ]
+}, {
+  "id" : "tt13623136",
+  "pays" : {
+    "nom" : "United States",
+    "url" : "/search/title/?country_of_origin=US&ref_=tt_dt_cn"
+  },
+  "nom" : "The Guardians of the Galaxy: Holiday Special",
+  "url" : "/title/tt13623136/?ref_=nm_flmg_act_6",
+  "plot" : null,
+  "langue" : "English",
+  "lieuTournage" : {
+    "ville" : "Hollywood  Los Angeles",
+    "etatDept" : " California",
+    "pays" : " USA"
+  },
+  "realisateurs" : [ {
+    "identite" : "James Gunn",
+    "url" : "/name/nm0348181/?ref_=tt_ov_dr"
+  } ],
+  "castingPrincipal" : [ {
+    "id" : "nm0348231",
+    "identite" : "Sean Gunn",
+    "naissance" : {
+      "dateNaissance" : "1974-5-22",
+      "lieuNaissance" : "St. Louis, Missouri, USA"
+    },
+    "url" : "/name/nm0348231/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm2394794",
+    "identite" : "Karen Gillan",
+    "naissance" : {
+      "dateNaissance" : "1987-11-28",
+      "lieuNaissance" : "Inverness, Scotland, UK"
+    },
+    "url" : "/name/nm2394794/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm0695435",
+    "identite" : "Chris Pratt",
+    "naissance" : {
+      "dateNaissance" : "1979-6-21",
+      "lieuNaissance" : "Virginia, Minnesota, USA"
+    },
+    "url" : "/name/nm0695435/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  } ],
+  "anneeSortie" : "2022",
+  "roles" : [ {
+    "characterName" : "Kraglin",
+    "acteur" : {
+      "id" : "nm0348231",
+      "identite" : "Sean Gunn",
+      "naissance" : {
+        "dateNaissance" : "1974-5-22",
+        "lieuNaissance" : "St. Louis, Missouri, USA"
+      },
+      "url" : "/name/nm0348231?ref_=tt_cl_t_3",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt13623136"
+  }, {
+    "characterName" : "Santa Claus",
+    "acteur" : {
+      "id" : "nm0608781",
+      "identite" : "David Moskowitz",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm0608781?ref_=tt_cl_t_9",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt13623136"
+  }, {
+    "characterName" : "Groot",
+    "acteur" : {
+      "id" : "nm0004874",
+      "identite" : "Vin Diesel",
+      "naissance" : {
+        "dateNaissance" : "1967-7-18",
+        "lieuNaissance" : "Alameda County, California, USA"
+      },
+      "url" : "/name/nm0004874?ref_=tt_cl_t_7",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt13623136"
+  }, {
+    "characterName" : "Nebula",
+    "acteur" : {
+      "id" : "nm2394794",
+      "identite" : "Karen Gillan",
+      "naissance" : {
+        "dateNaissance" : "1987-11-28",
+        "lieuNaissance" : "Inverness, Scotland, UK"
+      },
+      "url" : "/name/nm2394794?ref_=tt_cl_t_2",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt13623136"
+  }, {
+    "characterName" : "Peter Quill",
+    "acteur" : {
+      "id" : "nm0695435",
+      "identite" : "Chris Pratt",
+      "naissance" : {
+        "dateNaissance" : "1979-6-21",
+        "lieuNaissance" : "Virginia, Minnesota, USA"
+      },
+      "url" : "/name/nm0695435?ref_=tt_cl_t_1",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt13623136"
+  }, {
+    "characterName" : "Drax",
+    "acteur" : {
+      "id" : "nm1176985",
+      "identite" : "Dave Bautista",
+      "naissance" : {
+        "dateNaissance" : "1969-1-18",
+        "lieuNaissance" : "Washington, District of Columbia, USA"
+      },
+      "url" : "/name/nm1176985?ref_=tt_cl_t_8",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt13623136"
+  }, {
+    "characterName" : "",
+    "acteur" : {
+      "id" : "nm0757855",
+      "identite" : "Zoe Saldana",
+      "naissance" : {
+        "dateNaissance" : "1978-6-19",
+        "lieuNaissance" : "Passaic, New Jersey, USA"
+      },
+      "url" : "/name/nm0757855?ref_=tt_cl_t_5",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt13623136"
+  }, {
+    "characterName" : "",
+    "acteur" : {
+      "id" : "nm0002888",
+      "identite" : "Stephen Blackehart",
+      "naissance" : {
+        "dateNaissance" : "1967-12-1",
+        "lieuNaissance" : "New York City, New York, USA"
+      },
+      "url" : "/name/nm0002888?ref_=tt_cl_t_10",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt13623136"
+  }, {
+    "characterName" : "Rocket Raccoon",
+    "acteur" : {
+      "id" : "nm0177896",
+      "identite" : "Bradley Cooper",
+      "naissance" : {
+        "dateNaissance" : "1975-1-5",
+        "lieuNaissance" : "Philadelphia, Pennsylvania, USA"
+      },
+      "url" : "/name/nm0177896?ref_=tt_cl_t_6",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt13623136"
+  }, {
+    "characterName" : "Mantis",
+    "acteur" : {
+      "id" : "nm2962353",
+      "identite" : "Pom Klementieff",
+      "naissance" : {
+        "dateNaissance" : "1986-5-3",
+        "lieuNaissance" : "Quebec City, Quebec, Canada"
+      },
+      "url" : "/name/nm2962353?ref_=tt_cl_t_4",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt13623136"
+  } ],
+  "genres" : [ "Action", "Adventure", "Comedy" ]
+}, {
+  "id" : "tt11743610",
+  "pays" : {
+    "nom" : "United States",
+    "url" : "/search/title/?country_of_origin=US&ref_=tt_dt_cn"
+  },
+  "nom" : "La liste finale",
+  "url" : "/title/tt11743610/?ref_=nm_flmg_act_7",
+  "plot" : null,
+  "langue" : "English",
+  "lieuTournage" : {
+    "ville" : "San Diego",
+    "etatDept" : " California",
+    "pays" : " USA"
+  },
+  "realisateurs" : [ {
+    "identite" : "United States",
+    "url" : "/search/title/?country_of_origin=US&ref_=tt_dt_cn"
+  } ],
+  "castingPrincipal" : [ {
+    "id" : "nm2090422",
+    "identite" : "Constance Wu",
+    "naissance" : {
+      "dateNaissance" : "1982-3-22",
+      "lieuNaissance" : "Richmond, Virginia, USA"
+    },
+    "url" : "/name/nm2090422/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm2018237",
+    "identite" : "Taylor Kitsch",
+    "naissance" : {
+      "dateNaissance" : "1981-4-8",
+      "lieuNaissance" : "Kelowna, British Columbia, Canada"
+    },
+    "url" : "/name/nm2018237/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm0695435",
+    "identite" : "Chris Pratt",
+    "naissance" : {
+      "dateNaissance" : "1979-6-21",
+      "lieuNaissance" : "Virginia, Minnesota, USA"
+    },
+    "url" : "/name/nm0695435/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  } ],
+  "anneeSortie" : "2022",
+  "roles" : [ {
+    "characterName" : "Liz Riley",
+    "acteur" : {
+      "id" : "nm7335799",
+      "identite" : "Tyner Rushing",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm7335799?ref_=tt_cl_t_12",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Ernest 'Boozer' Vickers",
+    "acteur" : {
+      "id" : "nm7725286",
+      "identite" : "Jared Shaw",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm7725286?ref_=tt_cl_t_7",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Katie Buranek",
+    "acteur" : {
+      "id" : "nm2090422",
+      "identite" : "Constance Wu",
+      "naissance" : {
+        "dateNaissance" : "1982-3-22",
+        "lieuNaissance" : "Richmond, Virginia, USA"
+      },
+      "url" : "/name/nm2090422?ref_=tt_cl_t_2",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "JAG Captain Howard",
+    "acteur" : {
+      "id" : "nm1013218",
+      "identite" : "Matthew Rauch",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm1013218?ref_=tt_cl_t_16",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Lucy Reece",
+    "acteur" : {
+      "id" : "nm7750444",
+      "identite" : "Arlo Mertz",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm7750444?ref_=tt_cl_t_5",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Ben Edwards",
+    "acteur" : {
+      "id" : "nm2018237",
+      "identite" : "Taylor Kitsch",
+      "naissance" : {
+        "dateNaissance" : "1981-4-8",
+        "lieuNaissance" : "Kelowna, British Columbia, Canada"
+      },
+      "url" : "/name/nm2018237?ref_=tt_cl_t_3",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Tony Layun",
+    "acteur" : {
+      "id" : "nm1238555",
+      "identite" : "JD Pardo",
+      "naissance" : {
+        "dateNaissance" : "1980-9-7",
+        "lieuNaissance" : "Panorama City, California, USA"
+      },
+      "url" : "/name/nm1238555?ref_=tt_cl_t_8",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Secretary Hartley",
+    "acteur" : {
+      "id" : "nm0000675",
+      "identite" : "Jeanne Tripplehorn",
+      "naissance" : {
+        "dateNaissance" : "1963-6-10",
+        "lieuNaissance" : "Tulsa, Oklahoma, USA"
+      },
+      "url" : "/name/nm0000675?ref_=tt_cl_t_6",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Mac Wilson",
+    "acteur" : {
+      "id" : "nm0896292",
+      "identite" : "Christina Vidal",
+      "naissance" : {
+        "dateNaissance" : "1981-11-18",
+        "lieuNaissance" : "Whitestone, Queens, New York City, New York, USA"
+      },
+      "url" : "/name/nm0896292?ref_=tt_cl_t_10",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Mike Tedesco",
+    "acteur" : {
+      "id" : "nm0005204",
+      "identite" : "Paul McCrane",
+      "naissance" : {
+        "dateNaissance" : "1961-1-19",
+        "lieuNaissance" : "Philadelphia, Pennsylvania, USA"
+      },
+      "url" : "/name/nm0005204?ref_=tt_cl_t_17",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Richard Fontana",
+    "acteur" : {
+      "id" : "nm1212071",
+      "identite" : "Stephen Bishop",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm1212071?ref_=tt_cl_t_18",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Steve Horn",
+    "acteur" : {
+      "id" : "nm2541974",
+      "identite" : "Jai Courtney",
+      "naissance" : {
+        "dateNaissance" : "1986-3-15",
+        "lieuNaissance" : "Sydney, New South Wales, Australia"
+      },
+      "url" : "/name/nm2541974?ref_=tt_cl_t_15",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Lauren Reece",
+    "acteur" : {
+      "id" : "nm2142336",
+      "identite" : "Riley Keough",
+      "naissance" : {
+        "dateNaissance" : "1989-5-29",
+        "lieuNaissance" : "Santa Monica, California, USA"
+      },
+      "url" : "/name/nm2142336?ref_=tt_cl_t_4",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Commander Bill Cox",
+    "acteur" : {
+      "id" : "nm1206818",
+      "identite" : "LaMonica Garrett",
+      "naissance" : {
+        "dateNaissance" : "1975-5-23",
+        "lieuNaissance" : "San Francisco, California, USA"
+      },
+      "url" : "/name/nm1206818?ref_=tt_cl_t_9",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Junior Alba",
+    "acteur" : {
+      "id" : "nm6481846",
+      "identite" : "Drew Starkey",
+      "naissance" : {
+        "dateNaissance" : "1993-11-4",
+        "lieuNaissance" : "Hickory, North Carolina, USA"
+      },
+      "url" : "/name/nm6481846?ref_=tt_cl_t_13",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Nicole Deptula",
+    "acteur" : {
+      "id" : "nm6951875",
+      "identite" : "Alexis Louder",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm6951875?ref_=tt_cl_t_14",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "Admiral Gerald Pillar",
+    "acteur" : {
+      "id" : "nm0157915",
+      "identite" : "Nick Chinlund",
+      "naissance" : {
+        "dateNaissance" : "1961-11-18",
+        "lieuNaissance" : "New York City, New York, USA"
+      },
+      "url" : "/name/nm0157915?ref_=tt_cl_t_11",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  }, {
+    "characterName" : "James Reece",
+    "acteur" : {
+      "id" : "nm0695435",
+      "identite" : "Chris Pratt",
+      "naissance" : {
+        "dateNaissance" : "1979-6-21",
+        "lieuNaissance" : "Virginia, Minnesota, USA"
+      },
+      "url" : "/name/nm0695435?ref_=tt_cl_t_1",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt11743610"
+  } ],
+  "genres" : [ "Action", "Drama", "Thriller" ]
+}, {
+  "id" : "tt10648342",
+  "pays" : {
+    "nom" : "Australia",
+    "url" : "/search/title/?country_of_origin=AU&ref_=tt_dt_cn"
+  },
+  "nom" : "Thor: Love and Thunder",
+  "url" : "/title/tt10648342/?ref_=nm_flmg_act_8",
+  "plot" : null,
+  "langue" : "English",
+  "lieuTournage" : {
+    "ville" : " Moore Park  Sydney",
+    "etatDept" : " New South Wales",
+    "pays" : " Australia"
+  },
+  "realisateurs" : [ {
+    "identite" : "Taika Waititi",
+    "url" : "/name/nm0169806/?ref_=tt_ov_dr"
+  } ],
+  "castingPrincipal" : [ {
+    "id" : "nm0000288",
+    "identite" : "Christian Bale",
+    "naissance" : {
+      "dateNaissance" : "1974-1-30",
+      "lieuNaissance" : "Haverfordwest, Pembrokeshire, Wales, UK"
+    },
+    "url" : "/name/nm0000288/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm1165110",
+    "identite" : "Chris Hemsworth",
+    "naissance" : {
+      "dateNaissance" : "1983-8-11",
+      "lieuNaissance" : "Melbourne, Victoria, Australia"
+    },
+    "url" : "/name/nm1165110/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm0000204",
+    "identite" : "Natalie Portman",
+    "naissance" : {
+      "dateNaissance" : "1981-6-9",
+      "lieuNaissance" : "Jerusalem, Israel"
+    },
+    "url" : "/name/nm0000204/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  } ],
+  "anneeSortie" : "2022",
+  "roles" : [ {
+    "characterName" : "Gorr",
+    "acteur" : {
+      "id" : "nm0000288",
+      "identite" : "Christian Bale",
+      "naissance" : {
+        "dateNaissance" : "1974-1-30",
+        "lieuNaissance" : "Haverfordwest, Pembrokeshire, Wales, UK"
+      },
+      "url" : "/name/nm0000288?ref_=tt_cl_t_3",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Thor",
+    "acteur" : {
+      "id" : "nm1165110",
+      "identite" : "Chris Hemsworth",
+      "naissance" : {
+        "dateNaissance" : "1983-8-11",
+        "lieuNaissance" : "Melbourne, Victoria, Australia"
+      },
+      "url" : "/name/nm1165110?ref_=tt_cl_t_1",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Sif",
+    "acteur" : {
+      "id" : "nm1526352",
+      "identite" : "Jaimie Alexander",
+      "naissance" : {
+        "dateNaissance" : "1984-3-12",
+        "lieuNaissance" : "Columbia, South Carolina, USA"
+      },
+      "url" : "/name/nm1526352?ref_=tt_cl_t_7",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Asgardian Stagehand",
+    "acteur" : {
+      "id" : "nm12281779",
+      "identite" : "Natasha Cheng",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm12281779?ref_=tt_cl_t_18",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Asgardian Stage Manager",
+    "acteur" : {
+      "id" : "nm1229520",
+      "identite" : "Ben Falcone",
+      "naissance" : {
+        "dateNaissance" : "1973-8-25",
+        "lieuNaissance" : "Carbondale, Illinois, USA"
+      },
+      "url" : "/name/nm1229520?ref_=tt_cl_t_16",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Jane Foster",
+    "acteur" : {
+      "id" : "nm0000204",
+      "identite" : "Natalie Portman",
+      "naissance" : {
+        "dateNaissance" : "1981-6-9",
+        "lieuNaissance" : "Jerusalem, Israel"
+      },
+      "url" : "/name/nm0000204?ref_=tt_cl_t_2",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Zeus",
+    "acteur" : {
+      "id" : "nm0000128",
+      "identite" : "Russell Crowe",
+      "naissance" : {
+        "dateNaissance" : "1964-4-7",
+        "lieuNaissance" : "Wellington, New Zealand"
+      },
+      "url" : "/name/nm0000128?ref_=tt_cl_t_6",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Rocket",
+    "acteur" : {
+      "id" : "nm0177896",
+      "identite" : "Bradley Cooper",
+      "naissance" : {
+        "dateNaissance" : "1975-1-5",
+        "lieuNaissance" : "Philadelphia, Pennsylvania, USA"
+      },
+      "url" : "/name/nm0177896?ref_=tt_cl_t_14",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Miek",
+    "acteur" : {
+      "id" : "nm5415372",
+      "identite" : "Carly Rees",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm5415372?ref_=tt_cl_t_15",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "King Valkyrie",
+    "acteur" : {
+      "id" : "nm1935086",
+      "identite" : "Tessa Thompson",
+      "naissance" : {
+        "dateNaissance" : "1983-10-3",
+        "lieuNaissance" : "Los Angeles, California, USA"
+      },
+      "url" : "/name/nm1935086?ref_=tt_cl_t_4",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Asgardian Stagehand",
+    "acteur" : {
+      "id" : "nm6296226",
+      "identite" : "Suren Jayemanne",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm6296226?ref_=tt_cl_t_17",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Kraglin",
+    "acteur" : {
+      "id" : "nm0348231",
+      "identite" : "Sean Gunn",
+      "naissance" : {
+        "dateNaissance" : "1974-5-22",
+        "lieuNaissance" : "St. Louis, Missouri, USA"
+      },
+      "url" : "/name/nm0348231?ref_=tt_cl_t_12",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Korg",
+    "acteur" : {
+      "id" : "nm0169806",
+      "identite" : "Taika Waititi",
+      "naissance" : {
+        "dateNaissance" : "1975-8-16",
+        "lieuNaissance" : "Wellington, New Zealand"
+      },
+      "url" : "/name/nm0169806?ref_=tt_cl_t_5",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Groot",
+    "acteur" : {
+      "id" : "nm0004874",
+      "identite" : "Vin Diesel",
+      "naissance" : {
+        "dateNaissance" : "1967-7-18",
+        "lieuNaissance" : "Alameda County, California, USA"
+      },
+      "url" : "/name/nm0004874?ref_=tt_cl_t_13",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Nebula",
+    "acteur" : {
+      "id" : "nm2394794",
+      "identite" : "Karen Gillan",
+      "naissance" : {
+        "dateNaissance" : "1987-11-28",
+        "lieuNaissance" : "Inverness, Scotland, UK"
+      },
+      "url" : "/name/nm2394794?ref_=tt_cl_t_10",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Peter Quill",
+    "acteur" : {
+      "id" : "nm0695435",
+      "identite" : "Chris Pratt",
+      "naissance" : {
+        "dateNaissance" : "1979-6-21",
+        "lieuNaissance" : "Virginia, Minnesota, USA"
+      },
+      "url" : "/name/nm0695435?ref_=tt_cl_t_8",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Drax",
+    "acteur" : {
+      "id" : "nm1176985",
+      "identite" : "Dave Bautista",
+      "naissance" : {
+        "dateNaissance" : "1969-1-18",
+        "lieuNaissance" : "Washington, District of Columbia, USA"
+      },
+      "url" : "/name/nm1176985?ref_=tt_cl_t_9",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  }, {
+    "characterName" : "Mantis",
+    "acteur" : {
+      "id" : "nm2962353",
+      "identite" : "Pom Klementieff",
+      "naissance" : {
+        "dateNaissance" : "1986-5-3",
+        "lieuNaissance" : "Quebec City, Quebec, Canada"
+      },
+      "url" : "/name/nm2962353?ref_=tt_cl_t_11",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt10648342"
+  } ],
+  "genres" : [ "Action", "Adventure", "Comedy" ]
+}, {
+  "id" : "tt8041270",
+  "pays" : {
+    "nom" : "United States",
+    "url" : "/search/title/?country_of_origin=US&ref_=tt_dt_cn"
+  },
+  "nom" : "Jurassic World: Le monde d'aprÃ¨s",
+  "url" : "/title/tt8041270/?ref_=nm_flmg_act_9",
+  "plot" : null,
+  "langue" : "English",
+  "lieuTournage" : {
+    "ville" : "",
+    "etatDept" : "Valletta",
+    "pays" : " Malta"
+  },
+  "realisateurs" : [ {
+    "identite" : "Colin Trevorrow",
+    "url" : "/name/nm1119880/?ref_=tt_ov_dr"
+  } ],
+  "castingPrincipal" : [ {
+    "id" : "nm0000368",
+    "identite" : "Laura Dern",
+    "naissance" : {
+      "dateNaissance" : "1967-2-10",
+      "lieuNaissance" : "Saint John's Health Center, Santa Monica, Los Angeles County, California, USA"
+    },
+    "url" : "/name/nm0000368/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm0695435",
+    "identite" : "Chris Pratt",
+    "naissance" : {
+      "dateNaissance" : "1979-6-21",
+      "lieuNaissance" : "Virginia, Minnesota, USA"
+    },
+    "url" : "/name/nm0695435/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  }, {
+    "id" : "nm0397171",
+    "identite" : "Bryce Dallas Howard",
+    "naissance" : {
+      "dateNaissance" : "1981-3-2",
+      "lieuNaissance" : "Los Angeles, California, USA"
+    },
+    "url" : "/name/nm0397171/?ref_=tt_ov_st",
+    "height" : null,
+    "roles" : [ ]
+  } ],
+  "anneeSortie" : "2022",
+  "roles" : [ {
+    "characterName" : "Barry SembÃ¨ne",
+    "acteur" : {
+      "id" : "nm1082477",
+      "identite" : "Omar Sy",
+      "naissance" : {
+        "dateNaissance" : "1978-1-20",
+        "lieuNaissance" : "Trappes, Yvelines, France"
+      },
+      "url" : "/name/nm1082477?ref_=tt_cl_t_11",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Maisie Lockwood",
+    "acteur" : {
+      "id" : "nm9830820",
+      "identite" : "Isabella Sermon",
+      "naissance" : {
+        "dateNaissance" : "2006-7-8",
+        "lieuNaissance" : "London, England"
+      },
+      "url" : "/name/nm9830820?ref_=tt_cl_t_8",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Alan Grant",
+    "acteur" : {
+      "id" : "nm0000554",
+      "identite" : "Sam Neill",
+      "naissance" : {
+        "dateNaissance" : "1947-9-14",
+        "lieuNaissance" : "Omagh, Co. Tyrone, Northern Ireland, UK"
+      },
+      "url" : "/name/nm0000554?ref_=tt_cl_t_4",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Ian Malcolm",
+    "acteur" : {
+      "id" : "nm0000156",
+      "identite" : "Jeff Goldblum",
+      "naissance" : {
+        "dateNaissance" : "1952-10-22",
+        "lieuNaissance" : "Pittsburgh, Pennsylvania, USA"
+      },
+      "url" : "/name/nm0000156?ref_=tt_cl_t_5",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Franklin Webb",
+    "acteur" : {
+      "id" : "nm6819854",
+      "identite" : "Justice Smith",
+      "naissance" : {
+        "dateNaissance" : "1995-8-9",
+        "lieuNaissance" : "Los Angeles, California, USA"
+      },
+      "url" : "/name/nm6819854?ref_=tt_cl_t_12",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Ramsay Cole",
+    "acteur" : {
+      "id" : "nm6974206",
+      "identite" : "Mamoudou Athie",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm6974206?ref_=tt_cl_t_7",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Dr. Zia Rodriguez",
+    "acteur" : {
+      "id" : "nm4427331",
+      "identite" : "Daniella Pineda",
+      "naissance" : {
+        "dateNaissance" : "1987-2-20",
+        "lieuNaissance" : "Oakland, California, USA"
+      },
+      "url" : "/name/nm4427331?ref_=tt_cl_t_13",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Kayla Watts",
+    "acteur" : {
+      "id" : "nm1986622",
+      "identite" : "DeWanda Wise",
+      "naissance" : {
+        "dateNaissance" : "1984-5-30",
+        "lieuNaissance" : "Jessup, Maryland, USA"
+      },
+      "url" : "/name/nm1986622?ref_=tt_cl_t_6",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Wyatt Huntley",
+    "acteur" : {
+      "id" : "nm1119340",
+      "identite" : "Kristoffer Polaha",
+      "naissance" : {
+        "dateNaissance" : "1977-2-18",
+        "lieuNaissance" : "Reno, Nevada, USA"
+      },
+      "url" : "/name/nm1119340?ref_=tt_cl_t_16",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Denise Roberts",
+    "acteur" : {
+      "id" : "nm2821397",
+      "identite" : "Freya Parker",
+      "naissance" : {
+        "dateNaissance" : "",
+        "lieuNaissance" : ""
+      },
+      "url" : "/name/nm2821397?ref_=tt_cl_t_18",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Rainn Delacourt",
+    "acteur" : {
+      "id" : "nm2020278",
+      "identite" : "Scott Haze",
+      "naissance" : {
+        "dateNaissance" : "1993-6-28",
+        "lieuNaissance" : "Dallas, Texas, USA"
+      },
+      "url" : "/name/nm2020278?ref_=tt_cl_t_14",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Jeremy Bernier",
+    "acteur" : {
+      "id" : "nm11016259",
+      "identite" : "Caleb Hearon",
+      "naissance" : {
+        "dateNaissance" : "1995-1-24",
+        "lieuNaissance" : "Missouri, USA"
+      },
+      "url" : "/name/nm11016259?ref_=tt_cl_t_17",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Ellie Sattler",
+    "acteur" : {
+      "id" : "nm0000368",
+      "identite" : "Laura Dern",
+      "naissance" : {
+        "dateNaissance" : "1967-2-10",
+        "lieuNaissance" : "Saint John's Health Center, Santa Monica, Los Angeles County, California, USA"
+      },
+      "url" : "/name/nm0000368?ref_=tt_cl_t_3",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Lewis Dodgson",
+    "acteur" : {
+      "id" : "nm0001714",
+      "identite" : "Campbell Scott",
+      "naissance" : {
+        "dateNaissance" : "1961-7-19",
+        "lieuNaissance" : "New York City, New York, USA"
+      },
+      "url" : "/name/nm0001714?ref_=tt_cl_t_9",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Owen Grady",
+    "acteur" : {
+      "id" : "nm0695435",
+      "identite" : "Chris Pratt",
+      "naissance" : {
+        "dateNaissance" : "1979-6-21",
+        "lieuNaissance" : "Virginia, Minnesota, USA"
+      },
+      "url" : "/name/nm0695435?ref_=tt_cl_t_1",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Claire Dearing",
+    "acteur" : {
+      "id" : "nm0397171",
+      "identite" : "Bryce Dallas Howard",
+      "naissance" : {
+        "dateNaissance" : "1981-3-2",
+        "lieuNaissance" : "Los Angeles, California, USA"
+      },
+      "url" : "/name/nm0397171?ref_=tt_cl_t_2",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Dr. Henry Wu",
+    "acteur" : {
+      "id" : "nm0000703",
+      "identite" : "BD Wong",
+      "naissance" : {
+        "dateNaissance" : "1960-10-24",
+        "lieuNaissance" : "San Francisco, California, USA"
+      },
+      "url" : "/name/nm0000703?ref_=tt_cl_t_10",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  }, {
+    "characterName" : "Soyona Santos",
+    "acteur" : {
+      "id" : "nm1901842",
+      "identite" : "Dichen Lachman",
+      "naissance" : {
+        "dateNaissance" : "1982-2-22",
+        "lieuNaissance" : "Kathmandu, Nepal"
+      },
+      "url" : "/name/nm1901842?ref_=tt_cl_t_15",
+      "height" : null,
+      "roles" : [ ]
+    },
+    "film" : "tt8041270"
+  } ],
+  "genres" : [ "Action", "Adventure", "Sci-Fi" ]
 }]

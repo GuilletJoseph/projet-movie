@@ -4,10 +4,12 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.UUID;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -18,36 +20,35 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Transient;
+
+import org.hibernate.annotations.GenericGenerator;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 
 
 @Entity
-@Table(name="film")
+@Table(name="FILM")
 public class Film {
 	
 	
+	
 	@Id
+	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id_1")
-	private Long id_1;
+	@JsonIgnore
+	private Long id;
 	
 	
+	@Column(name="id_imdb")
+	@JsonProperty("id")
+    private String idImdb;
 	
-	public Long getId_1() {
-		return id_1;
-	}
 
-	public void setId_1(Long id_1) {
-		this.id_1 = id_1;
-	}
-
-	@Column(name="id")
-	private String id;
-	
-	
-	@OneToOne(cascade = {CascadeType.ALL})
-    @JoinColumn(name = "pays_id", referencedColumnName = "id")
-    private Pays pays;
 	
 	
 	@Column(name="nom")
@@ -59,126 +60,225 @@ public class Film {
 	@Column(name="plot")
 	private String plot;
 	
-	@Column(name="langue")
-	private String langue ;
 	
-	@OneToOne(cascade = {CascadeType.ALL})
-    @JoinColumn(name = "lieu_tournage_id", referencedColumnName = "id")
+	@Column(name="langue")
+    private String langue;
+
+	@Transient
     private LieuTournage lieuTournage;
 	
-
-	@OneToMany(mappedBy="film", cascade = {CascadeType.ALL})
-	private Set<Realisateurs> realisateurs = new HashSet<>();
 	
-	@OneToMany(mappedBy="film",cascade = {CascadeType.ALL})
-	private Set<CastingPrincipal> castingPrincipal = new HashSet<>();
+	@ManyToMany(cascade = {CascadeType.ALL})
+	@JoinTable(name="FILM_LIEUTOURNAGE", joinColumns = { @JoinColumn(name = "id_film") }, 
+	        inverseJoinColumns = { @JoinColumn(name = "id_lieutournage") } )
+	private Set<LieuTournage> lstLieuTurnage = new HashSet<>();
+	
+	
+	@ManyToOne(cascade = {CascadeType.ALL})
+    @JoinColumn(name="pays")
+	private Pays pays;
+	
+	
+	
+	
+	
+	@ManyToMany(cascade = {CascadeType.ALL})
+	@JoinTable(name="FILM_GENRE", joinColumns = { @JoinColumn(name = "id_film") }, 
+	       inverseJoinColumns = { @JoinColumn(name = "id_genre") } )
+	private List<Genre> lstGenres = new ArrayList<>();
+
+	
+	
+	
+	@ManyToMany (cascade = {CascadeType.ALL})
+	@JoinTable(name="FILM_REAlISATEUR", joinColumns = { @JoinColumn(name = "id_film") }, 
+    inverseJoinColumns = { @JoinColumn(name = "id_realisateur") } )
+	private Set<Realisateur> realisateurs = new HashSet<>();
+	
+	
+	@ManyToMany (cascade = {CascadeType.ALL})
+	@JoinTable(name="FILM_CASTINGPRINCIPAL", joinColumns = { @JoinColumn(name = "id_film") }, 
+    inverseJoinColumns = { @JoinColumn(name = "id_acteur") } )	
+	private Set<Acteur> castingPrincipal = new HashSet<>();
 	
 	
 	@Column(name="anne_sortie")
 	private Integer anneeSortie;
 	
 	
-	@OneToMany(mappedBy="film", cascade = {CascadeType.ALL})
+	
+	
+
+
+	public Set<Acteur> getCastingPrincipal() {
+		return castingPrincipal;
+	}
+
+
+	public void setCastingPrincipal(Set<Acteur> castingPrincipal) {
+		this.castingPrincipal = castingPrincipal;
+	}
+
+
+	@JsonProperty("genres")
+	@Transient
+    private String[] genres;
+	
+	
+	
+	@ManyToMany (cascade = {CascadeType.ALL})
+	@JoinTable(name="FILM_ROLE", joinColumns = { @JoinColumn(name = "id_film") }, 
+    inverseJoinColumns = { @JoinColumn(name = "id_role") } )	
 	private Set<Role> roles = new HashSet<>();
 
-	@Column(name="genres")
-	private String genres;
 
-	public String getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+
+	public void setId(Long id) {
 		this.id = id;
 	}
 
-	public Pays getPays() {
-		return pays;
+
+	public String getIdImdb() {
+		return idImdb;
 	}
 
-	public void setPays(Pays pays) {
-		this.pays = pays;
+
+	public void setIdImdb(String idImdb) {
+		this.idImdb = idImdb;
 	}
+
 
 	public String getNom() {
 		return nom;
 	}
 
+
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
+
 
 	public String getUrl() {
 		return url;
 	}
 
+
 	public void setUrl(String url) {
 		this.url = url;
 	}
+
 
 	public String getPlot() {
 		return plot;
 	}
 
+
 	public void setPlot(String plot) {
 		this.plot = plot;
 	}
 
-	public String getLangue() {
-		return langue;
-	}
 
-	public void setLangue(String langue) {
-		this.langue = langue;
-	}
 
 	public LieuTournage getLieuTournage() {
 		return lieuTournage;
 	}
 
+
 	public void setLieuTournage(LieuTournage lieuTournage) {
 		this.lieuTournage = lieuTournage;
 	}
 
-	public Set<Realisateurs> getRealisateurs() {
+
+	public Set<Realisateur> getRealisateurs() {
 		return realisateurs;
 	}
 
-	public void setRealisateurs(Set<Realisateurs> realisateurs) {
+
+	public void setRealisateurs(Set<Realisateur> realisateurs) {
 		this.realisateurs = realisateurs;
 	}
 
-	public Set<CastingPrincipal> getCastingPrincipal() {
-		return castingPrincipal;
-	}
-
-	public void setCastingPrincipal(Set<CastingPrincipal> castingPrincipal) {
-		this.castingPrincipal = castingPrincipal;
-	}
 
 	public Integer getAnneeSortie() {
 		return anneeSortie;
 	}
 
+
 	public void setAnneeSortie(Integer anneeSortie) {
 		this.anneeSortie = anneeSortie;
 	}
+
+
+	
+
+
+	public String[] getGenres() {
+		return genres;
+	}
+
+
+	public void setGenres(String[] genres) {
+		this.genres = genres;
+	}
+
+
+
+
+
+	public List<Genre> getLstGenres() {
+		return lstGenres;
+	}
+
+
+	public void setLstGenres(List<Genre> lstGenres) {
+		this.lstGenres = lstGenres;
+	}
+
 
 	public Set<Role> getRoles() {
 		return roles;
 	}
 
+
 	public void setRoles(Set<Role> roles) {
 		this.roles = roles;
 	}
 
-	public String getGenres() {
-		return genres;
+
+	public String getLangue() {
+		return langue;
 	}
 
-	public void setGenres(String genres) {
-		this.genres = genres;
-	}  
 
+	public void setLangue(String langue) {
+		this.langue = langue;
+	}
+
+
+
+
+
+	public Set<LieuTournage> getLstLieuTurnage() {
+		return lstLieuTurnage;
+	}
+
+
+	public void setLstLieuTurnage(Set<LieuTournage> lstLieuTurnage) {
+		this.lstLieuTurnage = lstLieuTurnage;
+	}
+
+
+	public Pays getPays() {
+		return pays;
+	}
+
+
+	public void setPays(Pays pays) {
+		this.pays = pays;
+	}
 	
 }
