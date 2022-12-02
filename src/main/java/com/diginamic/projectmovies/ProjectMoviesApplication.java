@@ -35,7 +35,7 @@ public class ProjectMoviesApplication {
 		
 
 		ObjectMapper objectMapper = new ObjectMapper();
-		File file = new File("src/main/resources/test.json");  
+		File file = new File("src/main/resources/films.json");  
 		List<Film> filmList = objectMapper.readValue(file, new TypeReference<>(){});
 		
 		

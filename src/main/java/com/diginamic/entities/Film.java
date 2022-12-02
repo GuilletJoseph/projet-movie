@@ -103,7 +103,7 @@ public class Film {
 	
 	
 	@Column(name="anne_sortie")
-	private Integer anneeSortie;
+	private String anneeSortie;
 	
 	
 	
@@ -203,12 +203,12 @@ public class Film {
 	}
 
 
-	public Integer getAnneeSortie() {
+	public String getAnneeSortie() {
 		return anneeSortie;
 	}
 
 
-	public void setAnneeSortie(Integer anneeSortie) {
+	public void setAnneeSortie(String anneeSortie) {
 		this.anneeSortie = anneeSortie;
 	}
 
