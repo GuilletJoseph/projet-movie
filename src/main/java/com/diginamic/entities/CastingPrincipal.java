@@ -22,33 +22,28 @@ import org.hibernate.annotations.GenericGenerator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-	public class CastingPrincipal {
+//faux json responsable java class )))
+public class CastingPrincipal {
 
-		@JsonIgnore()
-		private Long id;
-		
-		@JsonIgnore
-	    private String idimdb;
-		
-		
-		@JsonIgnore
-		private String identite;
-		
-		@JsonIgnore
-		private Naissance naissance;
-		
-		@JsonIgnore
-		private String url;
-		
-		@JsonIgnore
-		private String height;	
+	@JsonIgnore()
+	private Long id;
 
-		@JsonIgnore
-		private Set<Role> roles=new HashSet<>();
+	@JsonIgnore
+	private String idimdb;
 
-		
-		
-		
-		
-				
-	}
+	@JsonIgnore
+	private String identite;
+
+	@JsonIgnore
+	private Naissance naissance;
+
+	@JsonIgnore
+	private String url;
+
+	@JsonIgnore
+	private String height;
+
+	@JsonIgnore
+	private Set<Role> roles = new HashSet<>();
+	// pas de setters et getters
+}

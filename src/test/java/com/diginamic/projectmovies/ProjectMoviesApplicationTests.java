@@ -1,13 +1,18 @@
 package com.diginamic.projectmovies;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import java.util.List;
 
-@SpringBootTest
-class ProjectMoviesApplicationTests {
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.Query;
+import javax.persistence.TypedQuery;
 
-	@Test
-	void contextLoads() {
-	}
+import org.junit.Test;
 
+import com.diginamic.entities.Acteur;
+
+public class ProjectMoviesApplicationTests {
+	
 }

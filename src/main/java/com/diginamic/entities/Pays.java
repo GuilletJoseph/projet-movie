@@ -24,68 +24,55 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
-@Table(name="PAYS")
+@Table(name = "PAYS") // creation table pays
 public class Pays {
-
+//id, nom, url
 	@Id
 	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
-	@Column(name="nom")
+
+	@Column(name = "nom")
 	private String nom;
-	
-	@Column(name="url")
+
+	@Column(name = "url")
 	private String url;
-	
-	
-	@OneToMany(mappedBy = "pays", cascade = {CascadeType.ALL})
+
+	// relation one to many pays-film
+	@OneToMany(mappedBy = "pays", cascade = { CascadeType.ALL })
 	private Set<Film> films = new HashSet<>();
 
-
+//setters et getters
 	public Long getId() {
 		return id;
 	}
-
 
 	public void setId(Long id) {
 		this.id = id;
 	}
 
-
 	public String getNom() {
 		return nom;
 	}
-
 
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
 
-
 	public String getUrl() {
 		return url;
 	}
-
 
 	public void setUrl(String url) {
 		this.url = url;
 	}
 
-
 	public Set<Film> getFilms() {
 		return films;
 	}
-
 
 	public void setFilms(Set<Film> films) {
 		this.films = films;
 	}
 
-
-
-	
-
-	
-	
-	}
+}

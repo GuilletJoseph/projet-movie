@@ -22,60 +22,48 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-@Entity
-@Table(name = "GENRE")
-public class Genre {
 
+@Entity
+@Table(name = "GENRE") // creation table genre
+public class Genre {
+//column id, nom
 	@Id
 	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@JsonIgnore()
 	private Long id;
 
-	@Column(name="nom")
+	@Column(name = "nom")
 	private String nom;
-	
+	// relation many to many genres-film
 	@ManyToMany(mappedBy = "lstGenres")
 	private Set<Film> lstFilms = new HashSet<>();
 
-
+	// setters et getters
 	public Genre(String nom) {
 		super();
 		this.nom = nom;
 	}
 
-	
-
 	public String getNom() {
 		return nom;
 	}
-
-
-
 
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
 
-
-
 	public Set<Film> getLstFilms() {
 		return lstFilms;
 	}
-
-
 
 	public void setLstFilms(Set<Film> lstFilms) {
 		this.lstFilms = lstFilms;
 	}
 
-
-
 	public Long getId() {
 		return id;
 	}
-
-
 
 	public void setId(Long id) {
 		this.id = id;

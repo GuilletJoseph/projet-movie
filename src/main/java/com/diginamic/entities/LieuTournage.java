@@ -29,19 +29,14 @@ public class LieuTournage {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@JsonIgnore()
 	private Long id;
-	
-	
-	
-	
-	@Column(name="ville")
-	private String ville;
-	
-	
-	@Column(name="etat_dept")
-	private String etatDept;
-	
 
-	@Column(name="pays")
+	@Column(name = "ville")
+	private String ville;
+
+	@Column(name = "etat_dept")
+	private String etatDept;
+
+	@Column(name = "pays")
 	private String pays;
 
 	@ManyToMany(mappedBy = "lstLieuTurnage")
@@ -78,7 +73,6 @@ public class LieuTournage {
 	public void setPays(String pays) {
 		this.pays = pays;
 	}
-
 
 	public Set<Film> getLstLieuTurnage() {
 		return lstLieuTurnage;

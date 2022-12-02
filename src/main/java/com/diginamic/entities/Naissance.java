@@ -18,53 +18,48 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
 @Entity
-@Table(name = "NAISSANCE")
+@Table(name = "NAISSANCE") // creation table naissance
 public class Naissance {
 
+//id, datenaissance,lieunaissance...
 	@Id
 	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@JsonIgnore()
 	private Long id;
-	
-	@Column(name="datenaissance")
-	private String dateNaissance;
-	
-	
-	@Column(name="lieunaissance")
-	private String lieuNaissance;
-	
 
+	@Column(name = "datenaissance")
+	private String dateNaissance;
+
+	@Column(name = "lieunaissance")
+	private String lieuNaissance;
+
+//getters et setters
 
 	public Long getId() {
 		return id;
 	}
 
-
 	public void setId(Long id) {
 		this.id = id;
 	}
-
 
 	public String getDateNaissance() {
 		return dateNaissance;
 	}
 
-
 	public void setDateNaissance(String dateNaissance) {
 		this.dateNaissance = dateNaissance;
 	}
-
 
 	public String getLieuNaissance() {
 		return lieuNaissance;
 	}
 
-
 	public void setLieuNaissance(String lieuNaissance) {
 		this.lieuNaissance = lieuNaissance;
 	}
-
 
 }
